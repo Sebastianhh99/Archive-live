@@ -17,7 +17,7 @@ int f(int i, int j){
             opc1+=f(i+1,j-1);
         }
         int opc2=a[j];
-        if(a[1]>=a[j-1]){
+        if(a[i]>=a[j-1]){
             opc2+=f(i+1,j-1);
         }
         else{
